@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ #home{
+    background-image: url(/Users/dewaynebarnes-knox/Desktop/CSS.pics/f5f06a64d697baa7ddd6852da34dfb0c.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#entertainment {
+    background-image: url(marshmelo-new-years-eve-2016-phoenix-decadence-arizona-rawhide.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#hotel {
+    background-image: url(phoenician.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#history {
+    background-image: url(historyarizona.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: tan;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.main-nav li.active a {
+    border: 1px solid pink;
+}
+
+.main-nav li a:hover {
+    border: 1px solid pink;
+}
+
+ .container {
+    margin: auto;
+    position: absolute; 
+    color: pink;
+    font-size: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#footer h3 {
+    margin-top: 0;
+    position: static;
+}
+
+#footer a {
+    color: pink;
+}
+
+h3 {
+    color: pink;
+    font-size: 30px;
+    margin-top: 350px;
+    text-align: center;
+    position: absolute;
+}
+
+h4 {
+    color: black;
+    font-size: 30px;
+    margin-top: 350px;
+    text-align: center;
+    position: absolute;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 285px;
+    margin-top: 100px;
+}
+
+h1 {
+    color: pink;
+    text-transform: lowercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.hero2 {
+    position: absolute;
+    width: 1200px;
+    margin-left: 285px;
+    margin-top: 100 px;
+}
+
+.hero3 {
+    position: absolute;
+    width: 1200px;
+    margin-left: 285px;
+    margin-top: 100 px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 250px;
+    text-align: center;
+    position: absolute;
+    color: pink;
+}
+
+
+#slider {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+
+.resort {
+    padding-left: 200px;
+    padding-top: 395px;
+}
+
+.resort img {
+    width: 20%;
+    height: auto;
+    padding: 18px;
+}
